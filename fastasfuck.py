@@ -25,11 +25,11 @@ def main():
     print("done")
 """
     print(time.time())
-    zeitanfang = time.time()
+    timeBegin = time.time()
     loop()
-    zeitende = time.time()
+    timeEnd = time.time()
     print("Dauer Programmausführung:", )
-    print(zeitende - zeitanfang)
+    print(timeBegin - timeEnd)
 
 
 if __name__ == '__main__':
